@@ -20,8 +20,8 @@ app.get('/home', function (req, res) {
   res.render('home')
 })
 
-app.get('/todos', function (req, res) {
-  res.render('todos/index', {
+app.get('/games', function (req, res) {
+  res.render('games/index', {
     games: games
   })
 })

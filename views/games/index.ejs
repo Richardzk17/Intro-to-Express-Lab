@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Games</title>
 </head>
 <body>
-    <h1>game</h1>
+    <h1>Games</h1>
+    <a href="/home">go home</a>
   <ul>
     <% games.forEach(game => { %>
       <li>
 				<%= game.text %> 
 				- 
-				<%= game.done ? 'done' : 'not done' %>
+				<%= game.ps5 ? 'On Ps5 ' : 'Not on Ps5' %>
 			</li>
     <% }) %>
   </ul>
